@@ -126,6 +126,127 @@ height: 56px;
     width: 580px;
 height: 56px;
 color: rgba(255, 255, 255, 0.312);
+}
+.main{
+    width: 1440px;
+    margin: 0 auto;
+}
+.container{
+    width: 1200px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.android{
+    width: 360px;
+    height: 272px;
+    position: relative;
+
+}
+.cloud2{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 30px;
+    top: 28px;
+}
+.android h3{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 22px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+left: 30px;
+top: 97px;
+}
+.android p{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+left: 30px;
+top: 140px;
+width: 300px;
+height: 52px;
+}
+.android span{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0px;
+text-align: left;
+text-decoration-line: underline;
+position: absolute;
+top: 223px;
+left: 30px;
+}
+.cloud{
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: 222px;
+    right: 30px;
+}
+
+.all{
+  display: flex;
+  margin-top: 151px;
+}
+
+.simple{
+    width: 676px;
+    height: 635px;
+    position: relative;
+    display: flex;
+flex-direction: column;
+align-items: end;
+justify-content: end;
+gap: 15px;
+}
+.simple img{
+    width: 381px;
+    height: 508px;
+    border-radius: 10px;
+    position: absolute;
+    top: 71px;
+    left: 93px;
+}
+.simple2{
+    width: 500px;
+    height: 635px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    /* border: 1px solid black; */
+}
+.simple2 h2{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 35px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0px;
+text-align: left;
+width: 466px;
+}
+.simple2 p{
+    width: 466px;
+    height: 196px;
+    color: rgb(0, 25, 74);
 font-family: Roboto;
 font-size: 18px;
 font-weight: 300;
@@ -161,4 +282,73 @@ align-items: center;
 justify-content: space-between;
 align-items: center;
 width: 273px;
+text-align: left;
 }
+
+.message{
+    width: 391px;
+    height: 80px;
+    border-radius: 10px;
+box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.03);
+background: rgb(255, 255, 255);
+/* border: 1px solid black; */
+position: relative;
+}
+.message img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.message span{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+top: 15px;
+left: 317px;
+}
+.message h3{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+top: 2px;
+left: 85px;
+}
+.message p{
+    color: rgb(0, 25, 74);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: left;
+position: absolute;
+top: 30px;
+left: 85px;
+}
+.message button{
+    color: rgb(255, 255, 255);
+font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14px;
+letter-spacing: 0px;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 0, 67);
+position: absolute;
+top: 41px;
+left: 352px;
+}
+
